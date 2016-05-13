@@ -1,6 +1,8 @@
 # trello-osx-install
 A quick script to get Trello as an app on OS X
 
+[(![watch install video](https://raw.githubusercontent.com/annaminton/trello-osx-install/master/install-video.gif)](https://youtu.be/qZPYbW0pADs)
+
 # Install
 
 **1. Paste this into a Terminal prompt.**
