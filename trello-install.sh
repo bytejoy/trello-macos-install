@@ -30,8 +30,11 @@ brew install node
 fancy_echo "Installing Nativefier ..."
 npm install nativefier -g
 
+fance_echo "Downloading card-id hack ..."
+curl --remote-name https://raw.githubusercontent.com/annaminton/trello-osx-install/master/display-card-ids.css
+
 fancy_echo "Creating Trello app ..."
-nativefier --name "Trello" "http://trello.com"
+nativefier --name "Trello" "http://trello.com" --inject display-card-ids.css
 
 fancy_echo "Moving to Applications ..."
 rsync -a ~/Trello-darwin-x64/Trello.app/ /Applications/Trello.app/
