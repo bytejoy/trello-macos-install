@@ -30,7 +30,7 @@ brew install node
 fancy_echo "Installing Nativefier ..."
 npm install nativefier -g
 
-fance_echo "Downloading card-id hack ..."
+fancy_echo "Downloading card-id hack ..."
 curl --remote-name https://raw.githubusercontent.com/annaminton/trello-osx-install/master/display-card-ids.css
 
 fancy_echo "Creating Trello app ..."
